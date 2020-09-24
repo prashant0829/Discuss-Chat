@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chat App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" type="text/css" media="screen" href="ios.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+  <script defer src="/socket.io/socket.io.js"></script>
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+
+
+  <div class="registration_box">
+    <p id="info">Enter your name</p>
+    <input type="text" name="name" id="name" placeholder="Your name here">
+    <button id="addNameBtn" name="addNameBtn">Submit Name</button>
+    <button name="showChatBtn" id="showChatBtn">Proceed</button>
+  </div>
+
+
+  <div class="box">
+    <div class="container">
+      <div class="chatarea">
+        <h1>Welcome to the Chat</h1>
+        <!-- <div class="message left">Hey how are you?</div> -->
+        <div class="middle">You Got Connected</div>
+        <!-- <div class="message right">Hi I am fine.</div> -->
+      </div>
+    </div>
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" name="messageInp" id="messageInp" placeholder="Type a Message...." autocomplete="off">
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
