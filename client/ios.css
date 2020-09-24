@@ -11,7 +11,7 @@ body{
 .container {
   padding: 10px;
   /* background-image: linear-gradient(rgba(255, 255, 255), rgb(182, 187, 255)); */
-  background-color: rgb(118, 216, 255);
+  background-color: rgb(202, 240, 255);
   height: 78vh;
   border-radius: 10px;
   font-family: sans-serif;
@@ -31,7 +31,7 @@ h1{
   float: left;
   clear: both;
   margin-bottom: 10px;
-  background: rgb(255, 122, 193);
+  background: rgb(255, 91, 146);
   padding: 4px;
   border-radius: 8px;
   color: white;
@@ -55,7 +55,7 @@ h1{
   color: white;
   padding: 4px;
   border-radius: 8px;
-  color: rgb(71, 71, 71);
+  color: rgb(255, 255, 255);
   font-size: 16px;
   /* text-align: right; */
   max-width: 200px;
@@ -73,7 +73,7 @@ h1{
 .middle {
   clear: both;
   text-align: center;
-  background: rgb(139, 139, 139);
+  background: rgba(0, 0, 0, 0.4);
   padding: 4px;
   border-radius: 8px;
   color: rgb(255, 255, 255);
