@@ -6,11 +6,12 @@ body{
   margin: auto;
   position: relative;
   height: 90vh;
+  margin-top: 10px;
 }
 .container {
   padding: 10px;
   /* background-image: linear-gradient(rgba(255, 255, 255), rgb(182, 187, 255)); */
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(118, 216, 255);
   height: 78vh;
   border-radius: 10px;
   font-family: sans-serif;
@@ -30,7 +31,7 @@ h1{
   float: left;
   clear: both;
   margin-bottom: 10px;
-  background: rgb(255, 101, 183);
+  background: rgb(255, 122, 193);
   padding: 4px;
   border-radius: 8px;
   color: white;
@@ -50,7 +51,7 @@ h1{
 .right {
   float: right;
   clear: both;
-  background: rgb(133, 210, 255);
+  background: rgb(11, 131, 200);
   color: white;
   padding: 4px;
   border-radius: 8px;
