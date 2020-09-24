@@ -59,13 +59,16 @@ messageContainer.style.display="none";
 chatBoxBtn.style.display = "none"
 
 addNameBtn.addEventListener("click",function(){
-    name = inputName.value;
-    console.log(name);
-    inputName.value = ''
-    inputName.style.display = "none";
-    addNameBtn.style.display = "none";
-    info.innerText = "Thanks " + name + " You can now Proceed"
-    chatBoxBtn.style.display = ""
+    if(inputName.value != ""){
+        name = inputName.value;
+        console.log(name);
+        inputName.value = ''
+        inputName.style.display = "none";
+        addNameBtn.style.display = "none";
+        info.innerText = "Thanks " + name + " You can now Proceed"
+        chatBoxBtn.style.display = ""
+    }
+    
 })
 
 chatBoxBtn.addEventListener("click", function () {
