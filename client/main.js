@@ -53,6 +53,7 @@ const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
 const messageContainer = document.querySelector(".box");
 const registrationBox = document.querySelector(".registration_box");
+const container = document.querySelector(".container");
 let audio = new Audio("sound.mp3");
 messageContainer.style.display="none";
 chatBoxBtn.style.display = "none"
@@ -93,7 +94,7 @@ const append = (message, position) => {
     messageElement.innerText = message;
     // messageElement.classList.add('message');
     messageElement.classList.add(position);
-    messageContainer.appendChild(messageElement);
+    container.appendChild(messageElement);
 
     if (position === "left") {
         audio.play();
